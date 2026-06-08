@@ -38,7 +38,7 @@ qa-web-tests/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/qa-web-tests.git
+git clone https://github.com/Joaoldc/qa-testes-automatizados.git
 cd qa-web-tests
 
 # Crie e ative um virtual environment
