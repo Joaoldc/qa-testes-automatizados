@@ -113,7 +113,7 @@ O arquivo `conftest.py` fornece duas fixtures:
 
 ## Observações
 
-- Os testes utilizam **esperas explícitas** (`WebDriverWait`) para maior confiabilidade
+- Os testes utilizam **esperas explícitas** (`WebDriverWait`) para maior confiabilidade e por questão de instabilidade no sistema Debian proot.
 - Desenvolvido e testado em ambiente **Termux/Android** com parâmetros `--no-sandbox` e `--disable-dev-shm-usage`
-- Sistema Ubunto proot, instalado via termux, criando um ambiente posível para desenvolver e testar sistemas em um tablet Android utilizando algumas ferramentas de desenvolvimento compatível com essa arquitetura.
-- Compatível com Chrome e Firefox
+- Sistema Debian proot, instalado via termux, criando um ambiente possível para desenvolver e testar sistemas em um tablet Android utilizando algumas ferramentas de desenvolvimento compatíveis com essa arquitetura.
+- Testes compatíveis com Chrome e Firefox.
